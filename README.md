@@ -67,28 +67,6 @@
 
 ---
 
-## 🚀 Quick Start
-
-### Development
-```bash
-# Install dependencies
-npm install
-
-# Run development mode
-npm run dev
-```
-
-### Production Build
-```bash
-# Build tanpa publish
-npm run build
-
-# Build dan publish ke GitHub releases
-npm run build-release
-```
-
----
-
 ## 📁 Struktur Project
 
 ```
@@ -114,37 +92,6 @@ Designapp/
 └── scripts/               # Build scripts
 ```
 
----
-
-## 📦 Scripts
-
-| Script | Deskripsi |
-|--------|-----------|
-| `npm run dev` | Development mode dengan hot reload |
-| `npm run dev:web` | Web-only development (tanpa Electron) |
-| `npm run build` | Build production (tanpa publish) |
-| `npm run build-release` | Build dan upload ke GitHub releases |
-| `npm run lint` | Check code quality |
-
----
-
-## ⚙️ Environment Variables
-
-File `.env` di root project:
-
-```env
-# API Backend DoneTix
-VITE_API_URL=https://tiket.digitaldepot.id/api
-
-# App Name
-VITE_APP_NAME=DoneTix
-
-# GitHub Token untuk auto-update (saat build-release)
-GH_TOKEN=your_github_personal_access_token
-```
-
----
-
 ## 🎨 Flow Penggunaan
 
 ```mermaid
@@ -169,9 +116,6 @@ graph LR
 ---
 
 ## 📝 Catatan Penting
-
-> [!IMPORTANT]
-> Untuk menjalankan `build-release`, pastikan `GH_TOKEN` sudah diset dengan GitHub Personal Access Token yang memiliki scope `repo`.
 
 > [!TIP]
 > Gunakan format PDF untuk print langsung ke printer. Gunakan format PNG/JPG jika perlu edit lanjutan di software lain.
